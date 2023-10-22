@@ -14,6 +14,7 @@ public class CurrentState {
 		this.food = food;
 		this.materials = materials;
 		this.energy = energy;
+		
 	}
 
 }
