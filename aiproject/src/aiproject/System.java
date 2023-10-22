@@ -4,10 +4,10 @@ public class System {
 
 	Node root;
 	
-
-	public System(Node root) {
+	
+	public System(String initialState) {
 		
-		this.root = root;
+		
 		
 	}
 	public void expandNode(Node n) {
@@ -19,27 +19,6 @@ public class System {
 		n.BUILD2();
 		
 	};
-	
-//	public void RequestFood(){
-////		if(!this.currentState.onDelay ) {
-////			currentState.food--;
-////		}
-//	}
-//	
-//	public void RequestMaterials(){
-//		
-//	}
-//	public void RequestEnergy(){
-//		
-//	}
-//	public void WAIT(){
-//		
-//	}
-//	public void BUILD1(){
-//		
-//	}
-//	public void BUILD2(){
-//		
-//	}
+
 	
 }
